@@ -264,7 +264,7 @@ footer p {
 .img2{
     display: none;
 }
-@media (max-width: 390px) and (min-height: 844px) {
+@media (max-width: 390px) and (max-height: 844px) {
 * {
     margin: 0;
     padding: 0;
@@ -312,10 +312,10 @@ header {
     color: white;
 }
 
-.sobre {
+.container {
     grid-column: span 4;
     text-align: center;
-    padding: 20px;
+    
     margin-top: 100px;
     
 }
@@ -389,7 +389,7 @@ nav, a{
 
 }
 
-@media (max-width: 1440px) and (min-height: 1024px) {
+@media (max-width: 1440px) and (max-height: 1024px) {
     * {
         margin: 0;
         padding: 0;
