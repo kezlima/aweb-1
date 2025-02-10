@@ -264,7 +264,9 @@ footer p {
 .img2{
     display: none;
 }
-@media (max-width: 390px) and (max-height: 844px) {
+
+
+@media (min-width: 390px) and (min-height: 844px) {
 * {
     margin: 0;
     padding: 0;
@@ -275,22 +277,17 @@ footer p {
 body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    width: 100%;
+   
 }
 
 header {
     width: 90%;
     height: 100px;
     background-color: #f8f9fa;
-    display: flex;
     align-items: center;
     justify-content: space-around;
     position: fixed;
-    top: 0;
-    left: 5%;
     border-radius: 10px;
-    z-index: 1000;
 }
 
 .icon-link {
@@ -315,8 +312,6 @@ header {
 .container {
     grid-column: span 4;
     text-align: center;
-    
-    margin-top: 100px;
     
 }
 .sobre h1 {
@@ -370,11 +365,7 @@ footer a {
     margin-top: 10px;
 }
 
-.menu-desktop{
- border: 1px solid blue;
 
-    
-}
 nav, a{
     display: flex;
 
@@ -382,7 +373,6 @@ nav, a{
 }
 
 .hero-site{
-    border: 1px solid blue;
     margin-top: 120px;
     margin-left: 10px;
 }
@@ -403,7 +393,6 @@ nav, a{
         grid-template-columns: repeat(12, 1fr);
         gap: 10px;
         width: 100%;
-        border: 1px solid red;
     }
     
     header {
@@ -438,10 +427,11 @@ nav, a{
         text-align: left;
     }     
     .container{
-       border: 1px solid blue;
        grid-column: span 8;
        width: 100%;
-       margin: 100px;
+       margin: 0 auto;
+       margin-top: 100px;
+       margin-left: 280px;
     }
 
     .card{
@@ -451,18 +441,39 @@ nav, a{
 
     }
 
-    .card-container{
-        border: 1px solid red;
-      
-    }
-
+   
     footer{
         margin-top: 90px;
         width: 100%;
-        border: 1px solid blue;
         grid-column: span 12;
         height: 200px;
 
         
+    }
+    .img2{
+        margin: 0 auto;
+    }
+    
+    .card-container {
+        display: grid;
+        grid-column: span 8;  
+        gap: 20px; 
+        justify-content: center;
+        align-items: center; 
+        max-width: 800px;
+        margin: 0 auto; 
+    }
+    
+    .img-card img {
+        width: 100%;
+        border-radius: 10px; 
+    }
+    
+    .card-container article {
+        background: #fff;
+        padding: 10px;
+        border: 2px solid #ff7eb3;
+        border-radius: 10px;
+        text-align: center;
     }
 }  
