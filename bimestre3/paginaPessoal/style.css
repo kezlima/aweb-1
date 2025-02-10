@@ -434,15 +434,14 @@ nav, a{
 
     }
     
-             
+    .h1{
+        text-align: left;
+    }     
     .container{
        border: 1px solid blue;
        grid-column: span 8;
-       display: flex;
        width: 100%;
-       justify-items: center;
-       align-items: center;
-       margin-left: 270px;
+       margin: 100px;
     }
 
     .card{
