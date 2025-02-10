@@ -261,7 +261,9 @@ footer p {
 .img1{
     display: none;
 }
-
+.img2{
+    display: none;
+}
 @media (max-width: 390px) and (min-height: 844px) {
 * {
     margin: 0;
@@ -315,6 +317,7 @@ header {
     text-align: center;
     padding: 20px;
     margin-top: 100px;
+    
 }
 .sobre h1 {
     font-size: 2em;
@@ -327,7 +330,9 @@ header {
     text-align: center;
 }
 
-
+.img2{
+    display: block;
+}
 
 .img-card img {
     width: 100%;
@@ -339,7 +344,6 @@ header {
     padding: 10px;
 }
 
-/* FOOTER */
 footer {
     grid-column: span 4;
     width: 100%;
@@ -362,9 +366,22 @@ footer a {
     margin-top: 10px;
 }
 
-nav a{
-    margin-bottom: 30px;
-    margin: 0 auto;
+.menu-desktop{
+ border: 1px solid blue;
+
+    
 }
+nav, a{
+    display: flex;
+
+   
+}
+
+.hero-site{
+    border: 1px solid blue;
+    margin-top: 120px;
+    margin-left: 10px;
+}
+
 }
 
