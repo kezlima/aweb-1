@@ -323,6 +323,10 @@ header {
     font-size: 2em;
 }
 
+.card{
+    grid-column: span 4;
+ 
+}
 .card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -385,3 +389,81 @@ nav, a{
 
 }
 
+@media (max-width: 1440px) and (min-height: 1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        border: 1px soli;
+    }
+    
+    body {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 10px;
+        width: 100%;
+        border: 1px solid red;
+    }
+    
+    header {
+        width: 90%;
+        height: 100px;
+        background-color: #f8f9fa;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: fixed;
+        top: 0;
+        left: 5%;
+        border-radius: 10px;
+        z-index: 1000;
+        grid-column: span 12;
+
+    }
+
+    .img1{
+        display: block;
+        width: 70px;
+        border-radius: 50%;
+        margin: 5px;
+        margin-top: 10px;
+    }
+    .hero-site{
+        grid-column: span 12;
+
+    }
+    
+             
+    .container{
+       border: 1px solid blue;
+       grid-column: span 8;
+       display: flex;
+       width: 100%;
+       justify-items: center;
+       align-items: center;
+       margin-left: 270px;
+    }
+
+    .card{
+        grid-column: span 12;
+
+
+
+    }
+
+    .card-container{
+        border: 1px solid red;
+      
+    }
+
+    footer{
+        margin-top: 90px;
+        width: 100%;
+        border: 1px solid blue;
+        grid-column: span 12;
+        height: 200px;
+
+        
+    }
+}  
