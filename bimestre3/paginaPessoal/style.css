@@ -326,12 +326,7 @@ header {
     text-align: center;
 }
 
-.card-container:nth-child(odd) {
-    background-color: #f1f1f1;
-}
-.card-container:nth-child(even) {
-    background-color: #ddd;
-}
+
 
 .img-card img {
     width: 100%;
@@ -357,8 +352,17 @@ footer a {
     text-decoration: none;
     margin: 5px;
 }
+ .img1{
+    display: block;
+    width: 70px;
+    border-radius: 50%;
+    margin: 5px;
+    margin-top: 10px;
+}
 
-
-
+nav a{
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
 }
 
