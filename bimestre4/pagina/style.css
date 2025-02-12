@@ -60,9 +60,13 @@ nav a i { margin-right: 5px; }
     background-color: #Fff;
     padding: 20px; 
     border-radius: 20px;
+
     
 }
-
+.section2{
+    background-color: #fff;
+    border-radius: 20px;
+}
 h1{
     color: hotpink;
 }
@@ -97,6 +101,7 @@ h1{
     background: #Fff;
     border-radius: 8px;
     background-color: #F7F2EC;
+    width: 100%;
 
 }
 
@@ -224,11 +229,17 @@ font-size: 20px;
         grid-column: span 4;
         margin-top: 100px;
         text-align: center;
-        height: 100vh;
     }
 
-    .section h2 {
+    .section2{
+        grid-column: span 4;
+        margin-top: 100px;
         text-align: center;
+        min-height: 100vh; /* Faz cada seção ocupar no mínimo a altura total da tela */
+        margin-bottom: 100px;
+        background-color: #fff;
+        border-radius: 30px;
+
     }
     #curiosidades {
         grid-column: span 4;
@@ -243,6 +254,7 @@ font-size: 20px;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 10px;
+        height: 100vh;
        
     }
 
@@ -258,6 +270,7 @@ font-size: 20px;
         max-width: 80%;
         height: auto;
         border-radius: 5px;
+
     }
 
     /* FOOTER */
