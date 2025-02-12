@@ -13,10 +13,10 @@ body { font-family: "Poppins",Arial, sans-serif;
  }
  header {
     grid-column: span 12;
-    display: flex; /* Ativa o Flexbox no container */
-    justify-content: space-between; /* Alinha os itens no eixo horizontal com espaçamento igual entre eles */
-    align-items: center; /* Alinha os itens verticalmente no centro */
-    padding: 10px; /* Adiciona um pouco de espaçamento dentro do header */
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px; 
     height: 100px;
     background: #fff;
     position: fixed;
@@ -30,10 +30,10 @@ body { font-family: "Poppins",Arial, sans-serif;
 header img { height: 60px;
 border-radius: 50%; }
 nav a {
-    margin-left: 20px; /* Espaçamento entre os links */
-    text-decoration: none; /* Remove o sublinhado dos links */
-    color: hotpink; /* Altera a cor do texto (pode ajustar conforme preferir) */
-    font-weight: bold; /* Deixa o texto em negrito */
+    margin-left: 20px; 
+    text-decoration: none; 
+    color: hotpink; 
+    font-weight: bold; 
   }
 nav a i { margin-right: 5px; }
 .hero {
@@ -235,7 +235,7 @@ font-size: 20px;
         grid-column: span 4;
         margin-top: 100px;
         text-align: center;
-        min-height: 100vh; /* Faz cada seção ocupar no mínimo a altura total da tela */
+        min-height: 100vh; 
         margin-bottom: 100px;
         background-color: #fff;
         border-radius: 30px;
